@@ -17,7 +17,7 @@ function normalizePort(val) {
 
 const port = normalizePort(process.env.PORT || '80');
 
-const dz = '47.88.171.215';
+const dz = 'localhost';
 module.exports = {
   port,
   dz
