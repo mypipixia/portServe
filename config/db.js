@@ -1,6 +1,6 @@
 var Sequelize = require('sequelize');
 var sequelize = new Sequelize('infomgr', 'dms', '123456@qqAA', {
-  host: 'localhost',
+  host: '121.196.181.206',
   dialect: 'mysql',
   operatorsAliases: false,
   dialectOptions: {
